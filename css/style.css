@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fonts-inter: "Inter", sans-serif;
+  --fonts-poppins: "Poppins", sans-serif;
+  --heading-color: #050038;
+  --normal-color: #3b3a3f;
+  --link-color: #4262ff;
+  --footer-color: #ffc247;
+  --gray-color: #dbdcdb;
+}
+
+h2 {
+  font-size: 48px;
+  color: var(--heading-color);
+  font-family: var(--fonts-inter);
+  line-height: 56px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 24px;
+  color: var(--heading-color);
+  font-family: var(--fonts-inter);
+}
+
+p {
+  color: var(--normal-color);
+  line-height: 24px;
+}
+
+.btn {
+  background-color: var(--link-color);
+  border-radius: 20px;
+  color: white;
+  padding: 8px 16px;
+}
+
+/* ======== common css end ========= */
+
+/* navbar style */
+.sign-up-btn {
+  position: relative;
+  padding-right: 30px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.sign-up-btn span {
+  position: absolute;
+  top: 55%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+}
+.sign-up-btn span i {
+  font-size: 14px;
+}
+
+/* Banner styles */
+#banner h2 {
+  width: 376px;
+}
+#banner p {
+  width: 428px;
+  font-size: 18px;
+  margin-top: 8px;
+}
